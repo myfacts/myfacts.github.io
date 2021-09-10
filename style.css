@@ -1,0 +1,185 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fdca90;
+}
+
+header {
+    background-color: #fdca90;
+    color: rgb(255, 255, 255);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    font-family: fantasy;
+    font-size: 17;
+   font-style: italic;
+   
+   
+}
+
+#logo {
+    width: 115px;
+    position: absolute;
+    top: 0px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style-type: none;
+    margin-top: 0px;
+    cursor: pointer;
+}
+ li {
+    float: left;
+    padding: 20 10 20 10;
+}
+ li:hover {
+    background-color: wheat;
+}
+
+#background {
+    background: url(LOGO\ site\ recortando.png);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+
+#titulo {
+    color: rgba(168, 109, 109, 0);
+    padding-top: 17.5%;
+    font-size: 70px ;
+    line-height: 1;
+    text-shadow: rgb(190, 186, 166);
+    font-family: fantasy
+}
+
+#subtitulo {
+    color: rgb(54, 54, 54);
+    padding-top: 0%;
+    padding-left: 23%;
+    padding-right: 20%;
+    font-size: 25px;
+     text-align: center; 
+     width: 55%;
+     font-family: fantasy
+}
+
+
+#acao {
+    color: rgb(54, 54, 54);
+    border: 1px rgb(54, 54, 54) solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: initial;
+    font-family: fantasy
+}
+
+
+#selecao {
+    background-color:#fdca90; 
+    text-align: center;
+    font-family: fantasy;
+}
+
+#caixa {
+    width: 60%;
+    height: 50%;
+    border: 3px solid rgb(255, 205, 171);
+    text-align: center;
+    line-height: 89.5px;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 60px;
+    text-decoration: none;
+    align-self: hover;
+    font-family: fantasy
+}
+
+.icone {
+    width: 400px;
+    }
+
+ section {
+     padding: 20px;
+     float: left;
+ }   
+
+
+.destaque { 
+    background-color: wheat;
+    width: 100%;
+}
+
+.destaque2 { 
+    background-color: #fdca90;
+    width: 100%;
+    font-family: fantasy;
+}
+
+.imgeco {
+    width: 70%;
+    height: 30%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.coluna {   
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+
+.dois {
+   width: 40%;
+   font-family: fantasy;
+}
+
+.quatro {
+    width: 15%;
+   
+}
+
+.tres {
+    width: 20%;
+    padding:0 2%;
+   
+
+}
+
+.justificado {
+    text-align: justify;
+    font-size: 16pt;
+    font-family: fantasy
+}
+
+.centralizado {
+    text-align: center;
+    font-family: fantasy
+    
+}
+.centralizado2 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 16pt;
+
+}
+
+.imgslide {
+    display: inline;
+    width: 80%;
+    left: 30%;
+    margin: 0;
+    padding: 0;
+}
+
+.branco {
+    background-color: white;
+}
